@@ -56,11 +56,11 @@ Study case for AZ-900 certification.
 ### `Failure Tolerance`
 - Low failure rate
 
-## 🔸CAPEX x OPEX:
+## 🔸CAPEX x OPEX
 ### `Capex`
 - Company expenditure (such as infrastructure, etc.) all at once.
 
-### `Capex`
+### `OPEX`
 - Spending as needed
 - Spending in installments
  ### Consumption-based mode
@@ -68,5 +68,24 @@ Study case for AZ-900 certification.
  - Not spent -> Not paid.
  - Better cost prediction. Billing based on actual usage.
 
-## 🔸Cloud Services:
+## 🔸Cloud Services: IaaS | PaaS | Saas
 
+### `IaaS (Infrastructure as a Service):`
+
+Provides cloud-virtualized IT infrastructure such as virtual machines, storage, and networking.
+Users have full control over the operating system and applications installed on virtual machines.
+Suited for developers and system administrators who want more control over configuration and management of the environment.
+Examples: Amazon EC2, Azure Virtual Machines, Google Compute Engine.
+
+### `PaaS (Platform as a Service):`
+
+Offers a complete platform for application development and execution, including infrastructure, programming languages, libraries, and tools.
+Developers can focus on application code without worrying about underlying infrastructure.
+Ideal for developers aiming to build and deploy applications rapidly without managing infrastructure.
+Examples: Azure App Service, Google App Engine, Heroku.
+
+### `SaaS (Software as a Service):` 
+Provides ready-to-use software applications over the internet, where users can access and use the software directly without installation or maintenance.
+Users don't need to concern themselves with infrastructure, maintenance, or software updates.
+Suitable for businesses and users seeking immediate software solutions without the complexity of maintenance.
+Examples: Microsoft 365, Google Workspace.
