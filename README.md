@@ -89,3 +89,6 @@ Provides ready-to-use software applications over the internet, where users can a
 Users don't need to concern themselves with infrastructure, maintenance, or software updates.
 Suitable for businesses and users seeking immediate software solutions without the complexity of maintenance.
 Examples: Microsoft 365, Google Workspace.
+
+## 🔸Shared Responsibility Model
+![Shared Responsibility Model](https://github.com/Guilherme-Turri/az900-fundamentals/blob/main/900img/Shared%20Responsibility%20Model.png)
