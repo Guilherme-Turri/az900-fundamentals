@@ -2,7 +2,7 @@
 ## About
 Study case for AZ-900 certification.
 
- ## 🔸 Primary types of cloud:
+## 1  🔸 Primary types of cloud:
 
 ### `Public`
 - No capital expenses for vertical scaling.
@@ -92,3 +92,78 @@ Examples: Microsoft 365, Google Workspace.
 
 ## 🔸Shared Responsibility Model
 ![Shared Responsibility Model](https://github.com/Guilherme-Turri/az900-fundamentals/blob/main/900img/Shared%20Responsibility%20Model.png)
+
+## 2  🔸 Main Azure's Services:
+### `Architecture components`
+- Regions and availability zones.
+- Region pairs (mirroring)
+ - Automatic replication for certain resources. Preserve data resilience with comprehensive compliance
+- Resource Group and subscriptions.
+  
+### `Main resources`
+- Computing
+- NetWork
+- Storage
+- DataBase
+
+## 🔸Resources Group
+It is a container for managing resources as a single unit (logical grouping).
+1 Resource can exist in only 1 Group
+1 resource can exist in different regions
+Apps can use multiple resource groups
+### `Azure Resource Manager ARM`
+- It provides a management layer that allows you to create, update, and delete resources in your Azure subscription.
+![Shared Responsibility Model](https://github.com/Guilherme-Turri/az900-fundamentals/blob/main/900img/ARM.png)
+
+### `Azure subscription`
+ - Distribution of responsibility
+   - Provides authorized and authenticated access to Azure accounts.
+ - Billing limit 
+   - invoices and billing reports for each subscription.
+ - Access Control Limit 
+   - Manage and control access to resources that users provision with specific subscriptions
+## 🔸Management groups:
+- Division of subscription boundaries
+- Alternative for managing governance across subscriptions
+
+## 🔸Azure Services:
+### `Virtual Machine`
+ - IaaS service
+ - Choose SO
+ - Choose Network
+ - Choose Memory
+ - etc
+ - 
+### `App Service`
+ - PaaS service
+ - Managed platform for quickly creating, deploying, and scaling web apps/APIs.
+ - Work with .Net .NetCore Node, Java Python PHP
+ - No need to worry about the infrastructure, just focus on the application, data, security, and access.
+ - Could be used with Docker IMG, or, with code, dockerhub, etc
+
+ ### `Container Service`
+  -Virtualized environment
+  - Kubernets AKS
+
+ ### `Network Service` 
+ - Virtual Network: Enables services to communicate with each other (VNET)
+ - VPN
+ - ExpressRoute: Extends on-premises network to Azure through a private connection
+ - 
+## 🔸Storage access layer
+- Hot \ Frequent
+  - Used for frequent access data storage
+- Intermittent
+  - Used for infrequent storage with a minimum retention of 30 days
+- Archive
+  -  Used for rarely accessed data
+
+ ## 🔸DB Servies
+  ### `Azure COSMODB`
+  NOSQL Scale elastically
+  ### `AZURE DB`
+ (DaaS) Relational SQL server based
+ ### `AZURE Postgress`
+  PostGress based
+   ## Azure Managed SQL Instance
+   Managed SQL Instance is designed for customers looking to migrate multiple applications from an on-premises or self-built IaaS environment, or provided by an ISV, to a fully managed PaaS cloud environment with the least migration effort possible. "LIFT AND SHIFT"
