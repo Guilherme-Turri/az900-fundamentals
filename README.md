@@ -91,7 +91,7 @@ Suitable for businesses and users seeking immediate software solutions without t
 Examples: Microsoft 365, Google Workspace.
 
 ## 🔸Shared Responsibility Model
-![Shared Responsibility Model](https://github.com/Guilherme-Turri/az900-fundamentals/blob/main/900img/Shared%20Responsibility%20Model.png)
+![Types Of](https://github.com/Guilherme-Turri/az900-fundamentals/blob/main/900img/Shared%20Responsibility%20Model.png)
 
 ## ☁☁ 2  🔸 Main Azure's Services:
 ### `Architecture components`
@@ -207,3 +207,68 @@ Apps can use multiple resource groups
 ### `Azure Monitor`
   - Colects Logs, msgs. Creates error alerts. Ex: if theres 4 500's Errors, send an email.
     - Application Insigts, Logs Analysis, Smarts Alerts, Automation, Custom dashboards.
+ ## ☁☁ 4 🔸Azure Security
+ ### `Defender for Cloud`
+ - Monitoring Service
+    - Provide Protection
+    - Detect and Block Malwares
+    - Analyze and Identify Possible Attacks
+    - "Just in Time" Access Control for Ports
+ ### `Azure Sentinel`
+ - Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) Solution
+  ![Azure Sentinel](https://github.com/Guilherme-Turri/az900-fundamentals/blob/main/900img/SENTINEL.png)
+
+### `Azure Key Vault`
+- Stores app secrets/certificates in a centralized cloud location to securely control permissions and log access.
+    - Secret Management
+    - Key Management
+    - Certificate Management
+    - Stores secrets per Hardware Security Modules (HSMs) security modules.
+      - First, a KeyVault is created, and then a password is created within the key vault.
+### `Dedicated Host`
+- Provides physical servers that host one or more dedicated Azure VMs for the workload of a single organization.
+- Benefits:
+  - Hardware isolation at the server level
+  - Control over maintenance event timing
+  - Aligned with Azure Hybrid Usage benefits
+  - 
+## 🔸Connectivity and Secure Network
+Complete Protection
+
+- a layered approach to safeguard the system
+- Provides several levels of protection
+- Attacks against one layer are isolated from the subsequent layers
+
+### layers
+- Physical Security
+  - Access Identity
+    - Perimeter
+      - Network
+        - Computing
+          - Application
+            - Data
+
+### NOTE: Always deny, trust 0
+
+## 🔸 Shared Responsability:
+  ![Shared Responsability](https://github.com/Guilherme-Turri/az900-fundamentals/blob/main/900img/shared-responsibility.png)
+
+ ## 🔸 Network Security Group:
+### `Traffic Control`
+- What, Where and When!!
+- Filters network traffic to and from Azure resources within Azure virtual networks.
+- Define inbound and outbound rules to filter by source and destination IP address, port, and protocol.
+- Add rules as needed within the subscription limit.
+- Azure applies default baseline security rules to new NSGs (Network Security Groups).
+- Replace default rules with new, higher-priority rules.
+ ## 🔸 Azure Firewall:
+ ### `FaaS`
+- Grants/denies access to the server based on the source IP address to protect network resources.
+- Applies filtering rules for inbound and outbound traffic.
+- Integrated high availability.
+- Unrestricted cloud scalability
+- Uses Azure Monitor's log registry
+- 
+ ## 🔸 DDoS Protection Azure:
+- ex of  "Distributed Denial-of-Service (DDoS) attack": Overloading and depleting network resources, causing slowness and unresponsiveness. Thousands of requests per second.
+- When there are many 'strange' requests, Azure DDoS protection would block repeated calls.
