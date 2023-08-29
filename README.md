@@ -272,3 +272,31 @@ Complete Protection
  ## 🔸 DDoS Protection Azure:
 - ex of  "Distributed Denial-of-Service (DDoS) attack": Overloading and depleting network resources, causing slowness and unresponsiveness. Thousands of requests per second.
 - When there are many 'strange' requests, Azure DDoS protection would block repeated calls.
+
+ ## ☁☁ 4 🔸Identity, governance, privacy, and compliance
+ ### `Authentication x Authorization`
+ #### Authentication:
+  - Identifies person or service
+  - Requests credentials
+  - Foundation for establishing identity principles and secure access control
+ #### Authorization:
+  - Determines the level of authenticated access or service
+  - Defines which data or service can be accessed or what actions can be taken
+Azure Auth MultiFactor
+ ## 🔸 Azure Active Diretory (AAD):
+ Access and Identity Service cloud based 
+ ### `Access and Identity Management Service`
+- Employee authentication/credentials for resource access
+- Single Sign-On (SSO)
+- App management
+- Business-to-Business (B2B)
+- Business-to-Consumer Identity Service (B2C)
+- Device management
+ ### `Conditional Access`
+ Policy that gathers signals, makes decisions, and enforces organizational policies. Example: where (location) the login is performed.
+- User or group association
+- IP location
+- Device
+- Application
+- Risk detection
+  
