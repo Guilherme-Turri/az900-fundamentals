@@ -2,7 +2,7 @@
 ## About
 Study case for AZ-900 certification.
 
-## 1  🔸 Primary types of cloud:
+## ☁☁ 1  🔸 Primary types of cloud:
 
 ### `Public`
 - No capital expenses for vertical scaling.
@@ -93,7 +93,7 @@ Examples: Microsoft 365, Google Workspace.
 ## 🔸Shared Responsibility Model
 ![Shared Responsibility Model](https://github.com/Guilherme-Turri/az900-fundamentals/blob/main/900img/Shared%20Responsibility%20Model.png)
 
-## 2  🔸 Main Azure's Services:
+## ☁☁ 2  🔸 Main Azure's Services:
 ### `Architecture components`
 - Regions and availability zones.
 - Region pairs (mirroring)
@@ -133,7 +133,7 @@ Apps can use multiple resource groups
  - Choose Network
  - Choose Memory
  - etc
- - 
+
 ### `App Service`
  - PaaS service
  - Managed platform for quickly creating, deploying, and scaling web apps/APIs.
@@ -167,3 +167,43 @@ Apps can use multiple resource groups
   PostGress based
    ## Azure Managed SQL Instance
    Managed SQL Instance is designed for customers looking to migrate multiple applications from an on-premises or self-built IaaS environment, or provided by an ISV, to a fully managed PaaS cloud environment with the least migration effort possible. "LIFT AND SHIFT"
+ ## ☁☁ 3 🔸Azure Solutions
+ ### `Azure IoT`
+ - SaaS, like 365, Plataform that Monitors and manages actions
+ ### `IoT Hub`
+   - Managed cloud service that acts as a central hub for bidirectional messaging between IoT apps and the devices it manages.
+### `Azure Sphere`
+- Physical device that sends information to Azure Hub, for example, connects to a coffee maker
+ ## 🔸Big Data and Analytics
+   ### `Azure Synapse Analytics`
+   - Data WareHouse cloud based - Structured Data -
+### `Azure HD Insights`
+- Big Data based on Hadoop- Analytcs Service
+### `Azure Data Bricks`
+- Servico de análise baseado no Apache Spark
+ ## 🔸IA/ML
+### `Azure Machine Learning`
+- Cloud Solution for devleper, trainning, ML Models
+### `Azure Cognitives Services`
+- Enable applications to see, listen, speak, comprehend, and interpret user needs.
+
+### `Azure Bot Services`
+ - Develop intelligent, enterprise-level bots.
+ ## 🔸SERVERLESS
+ ### `Azure Functions`
+- Event-based code, e.g. HTTP messages, messages arriving in a queue, etc., triggering an action.
+### `Azure Logic Apps`
+- Like azure functions in a workflow, Automates and orchestrates tasks.
+### `Azure Devops`
+  - Cloud-based development collaboration tool, including pipelines, Kanban cards, and automated testing.
+### `Azure Github Actions`
+  - Automate the workflow for creating, testing, and deploying. Uses GitHub.
+ ### `AzureDevTest Labs`
+- Pre-configured template (like ARM) to quickly create Azure environments, minimizing expenses and cost overruns.
+
+### `Azure Assistant`
+- personalized cloud consultant that helps you follow best practices to optimize your Azure deployments. Continuously monitors.
+  -Reliability, security, performance, cost, operational excellence.
+### `Azure Monitor`
+  - Colects Logs, msgs. Creates error alerts. Ex: if theres 4 500's Errors, send an email.
+    - Application Insigts, Logs Analysis, Smarts Alerts, Automation, Custom dashboards.
