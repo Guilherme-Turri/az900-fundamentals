@@ -2,7 +2,7 @@
 ## About
 Study case for AZ-900 certification.
 
-## ☁☁ 1  🔸 Primary types of cloud:
+## ☁☁ 1 🔸 Primary types of cloud:
 
 ### `Public`
 - No capital expenses for vertical scaling.
@@ -337,3 +337,11 @@ Role based access control
 - Separated instance
 - Physically isolated
 - Access only to verified and authorized personnel
+ ## 🔸 Costs:
+6 main factors that affect costs:
+- Type of resource
+- Service
+- Location
+- Bandwidth
+- Reserved Instances
+- Hybrid Use Benefit
