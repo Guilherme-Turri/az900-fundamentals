@@ -299,4 +299,41 @@ Azure Auth MultiFactor
 - Device
 - Application
 - Risk detection
-  
+ ## 🔸 Governance:
+### `RBAC`
+Role based access control
+- Segregates responsibility
+- Divides tasks according to permissions (Read, Contribute, Owner, etc.)
+### `Resource locking`
+-Blocks certain actions
+- e.g.: CanNotDelete - ReadOnly
+ ### `Tags`
+- Provides metadata, organizes resources logically
+- Helps define responsibilities 
+ ### `Azure Policy`
+- Imposes organizational standards
+- Provides governance and consistency
+ ### `Azure BluePrint`
+- Model/Plan for quick implementation of new environments (template)
+ ### `CAF (Cloud Adoption Framework)`
+- Microsoft's approach to adopting Azure cloud
+- Best practices for migration
+- Tools, guidance, and narratives for strategy and results
+ ## 🔸 Privacy and Compliance:
+ ### `Securty`
+- Intentionally secure
+- Protects against threats using Automation and AI
+### `Privacy`
+- Ensures privacy by providing user control and transparency
+- What data is processed and how the data is processed
+ ### `Compliance` 
+- Respects local laws and regulations. Example: HIPAA, CJIS, NIST
+### `DPA (Data Protection Addendum)`
+- Establishes obligations regarding data processing and security
+### `Trust Center`
+- centralized place for any organization that needs information or resources on security, privacy, and compliance regarding Microsoft Online Services, not just Azure.
+### `Sovereign Regions`
+- Sovereign Regions are dedicated to specific sovereign entities such as Azure Government - US, Azure China.
+- Separated instance
+- Physically isolated
+- Access only to verified and authorized personnel
